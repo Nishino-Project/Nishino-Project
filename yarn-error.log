@@ -1,0 +1,71 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.6.1
+
+Platform: 
+  android arm
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../sshpk/bin/sshpk-conv' -> '/storage/emulated/0/Download/new/node_modules/http-signature/node_modules/.bin/sshpk-conv'
+
+npm manifest: 
+  {
+    "name": "nishino-project",
+    "version": "1.0.1",
+    "description": "new scraper",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "scraper",
+      "anime",
+      "doujindesu",
+      "downloader",
+      "game",
+      "botwa",
+      "bot-wa",
+      "zerochan",
+      "myanimelist",
+      "ytmp3",
+      "ytmp4"
+    ],
+    "author": "wiraardy",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "axios": "^1.3.5",
+      "cheerio": "^1.0.0-rc.12",
+      "google-tts-api": "^2.0.2",
+      "html-entities": "^2.3.3",
+      "is-emoji": "^0.1.1",
+      "scraperjs": "^1.2.0",
+      "yt-search": "^2.10.4",
+      "ytdl-core": "^4.11.3"
+    },
+    "devDependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Nishino-Project/Nishino-Project.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Nishino-Project/Nishino-Project/issues"
+    },
+    "homepage": "https://github.com/Nishino-Project/Nishino-Project#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
