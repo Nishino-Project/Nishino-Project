@@ -26,7 +26,7 @@ yarn add github:wiraardy/Nishino-Project
 
 Usage
 ```js
-var Nishino = require('rem_comp')
+var Nishino = require('nishino-project')
 
 ```
 ### zerochan 
