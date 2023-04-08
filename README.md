@@ -2,11 +2,11 @@
 
 Use the stable version:
 ```shell
-npm install rem_comp
+npm install github:wiraardy/Nishino-Project
 ```
 Or via yarn
 ```shell
-yarn add rem_comp
+yarn add github:wiraardy/Nishino-Project
 ```
 
 # List Scraper
@@ -26,7 +26,7 @@ yarn add rem_comp
 
 Usage
 ```js
-var scraper = require('rem_comp')
+var Nishino = require('rem_comp')
 
 ```
 ### zerochan 
@@ -37,7 +37,7 @@ var scraper = require('rem_comp')
 > - (query) *type **String***
 
 ```js
-scraper.anime.zerochan('elaina')
+Nishino.anime.zerochan('elaina')
 .then(response => {
   console.log(response)
 })
@@ -80,7 +80,7 @@ scraper.anime.zerochan('elaina')
 > - (query) *type **String***
 
 ```js
-scraper.rexdl.rexdl('whatsapp')
+Nishino.rexdl.rexdl('whatsapp')
 .then(response => {
   console.log(response)
 })
@@ -190,7 +190,7 @@ scraper.rexdl.rexdl('whatsapp')
 > - (query) *type **String***
 
 ```js
-scraper.anime.anoboy_search('one piece')
+Nishino.anime.anoboy_search('one piece')
 .then(response => {
   console.log(response)
 })
@@ -217,7 +217,7 @@ scraper.anime.anoboy_search('one piece')
 > - (query) *type **String***
 
 ```js
-scraper.anime.otakudesu_search('one piece')
+Nishino.anime.otakudesu_search('one piece')
 .then(response => {
   console.log(response)
 })
@@ -252,7 +252,7 @@ scraper.anime.otakudesu_search('one piece')
 <details><summary><b>My Anime List Top Airing</b></summary><br>
 
 ```js
-scraper.anime.mal_top_airing()
+Nishino.anime.mal_top_airing()
 .then(response => {
   console.log(response)
 })
@@ -317,7 +317,7 @@ scraper.anime.mal_top_airing()
 <details><summary><b>My Anime List Top Anime</b></summary><br>
 
 ```js
-scraper.anime.mal_top_anime()
+Nishino.anime.mal_top_anime()
 .then(response => {
   console.log(response)
 })
@@ -385,7 +385,7 @@ scraper.anime.mal_top_anime()
 > - (query) *type **String***
 
 ```js
-scraper.anime.mal_search_anime('one piece')
+Nishino.anime.mal_search_anime('one piece')
 .then(response => {
   console.log(response)
 })
@@ -476,7 +476,7 @@ scraper.anime.mal_search_anime('one piece')
 > - (query) *type **String***
 
 ```js
-scraper.anime.mal_search_manga('one piece')
+Nishino.anime.mal_search_manga('one piece')
 .then(response => {
   console.log(response)
 })
@@ -567,7 +567,7 @@ scraper.anime.mal_search_manga('one piece')
 > - (query) *type **String***
 
 ```js
-scraper.anime.mal_search_character('luffy')
+Nishino.anime.mal_search_character('luffy')
 .then(response => {
   console.log(response)
 })
@@ -669,7 +669,7 @@ scraper.anime.mal_search_character('luffy')
 > - (url) *type **String***
 
 ```js
-scraper.download.tiktok('https://vt.tiktok.com/ZSR2vqUFY/?k=1')
+Nishino.download.tiktok('https://vt.tiktok.com/ZSR2vqUFY/?k=1')
 .then(response => {
   console.log(response)
 })
@@ -724,7 +724,7 @@ scraper.download.tiktok('https://vt.tiktok.com/ZSR2vqUFY/?k=1')
 > - (url) *type **String***
 
 ```js
-scraper.download.youtube_dl_mp3('https://youtu.be/xCoSWXD8s_U')
+Nishino.download.youtube_dl_mp3('https://youtu.be/xCoSWXD8s_U')
 .then(response => {
   console.log(response)
 })
@@ -781,7 +781,7 @@ scraper.download.youtube_dl_mp3('https://youtu.be/xCoSWXD8s_U')
 > - (url) *type **String***
 
 ```js
-scraper.download.youtube_dl_mp4('https://youtu.be/xCoSWXD8s_U')
+Nishino.download.youtube_dl_mp4('https://youtu.be/xCoSWXD8s_U')
 .then(response => {
   console.log(response)
 })
@@ -838,7 +838,7 @@ scraper.download.youtube_dl_mp4('https://youtu.be/xCoSWXD8s_U')
 > - (query) *type **String***
 
 ```js
-scraper.download.youtube_play_mp3('fungi look alive')
+Nishino.download.youtube_play_mp3('fungi look alive')
 .then(response => {
   console.log(response)
 })
@@ -893,7 +893,7 @@ scraper.download.youtube_play_mp3('fungi look alive')
 > - (query) *type **String***
 
 ```js
-scraper.download.youtube_play_mp4('fungi look alive')
+Nishino.download.youtube_play_mp4('fungi look alive')
 .then(response => {
   console.log(response)
 })
@@ -951,7 +951,7 @@ scraper.download.youtube_play_mp4('fungi look alive')
 > - (emoji) *type **String***
 
 ```js
-scraper.convert.emoji_to_png('🔥')
+Nishino.convert.emoji_to_png('🔥')
 .then(response => {
   console.log(response)
 })
@@ -991,7 +991,7 @@ scraper.convert.emoji_to_png('🔥')
 var text = 'hello world' //the text you want to convert into sound
 var language = 'id' //language code, you can check at https://github.com/wiraardy/scraper/blob/master/lib/defaults/country-code/country-codes.txt
 
-scraper.convert.gtts(text, language)
+Nishino.convert.gtts(text, language)
 .then(response => {
   console.log(response)
 })
@@ -1011,7 +1011,7 @@ scraper.convert.gtts(text, language)
 <details><summary><b>Earthquake Info</b></summary><br>
 
 ```js
-scraper.info.gempa_terkini()
+Nishino.info.gempa_terkini()
 .then(response => {
   console.log(response)
 })
@@ -1040,7 +1040,7 @@ scraper.info.gempa_terkini()
 > - (query) *type **String***
 
 ```js
-scraper.search.github_repo('rem_comp')
+Nishino.search.github_repo('rem_comp')
 .then(response => {
   console.log(response)
 })
@@ -1057,9 +1057,9 @@ scraper.search.github_repo('rem_comp')
       full_name_repo: 'wiraardy/scraper',
       url_repo: 'https://github.com/wiraardy/scraper',
       description: null,
-      git_url: 'git://github.com/wiraardy/scraper.git',
-      ssh_url: 'git@github.com:wiraardy/scraper.git',
-      clone_url: 'https://github.com/wiraardy/scraper.git',
+      git_url: 'git://github.com/wiraardy/Nishino.git',
+      ssh_url: 'git@github.com:wiraardy/Nishino.git',
+      clone_url: 'https://github.com/wiraardy/Nishino.git',
       svn_url: 'https://github.com/wiraardy/scraper',
       homepage: null,
       stargazers: 6,
@@ -1083,7 +1083,7 @@ scraper.search.github_repo('rem_comp')
 > - (query) *type **String***
 
 ```js
-scraper.search.film('the conjuring')
+Nishino.search.film('the conjuring')
 .then(response => {
   console.log(response)
 })
@@ -1126,7 +1126,7 @@ scraper.search.film('the conjuring')
 > - (query) *type **String***
 
 ```js
-scraper.search.kodepos('ponorogo')
+Nishino.search.kodepos('ponorogo')
 .then(response => {
   console.log(response)
 })
@@ -1176,7 +1176,7 @@ scraper.search.kodepos('ponorogo')
 > - (query) *type **String***
 
 ```js
-scraper.stalk.github('wiraardy')
+Nishino.stalk.github('wiraardy')
 .then(response => {
   console.log(response)
 })
@@ -1236,7 +1236,7 @@ scraper.stalk.github('wiraardy')
 > - (query) *type **String***
 
 ```js
-scraper.image.pinterest('rem')
+Nishino.image.pinterest('rem')
 .then(response => {
   console.log(response)
 })
@@ -1256,7 +1256,7 @@ scraper.image.pinterest('rem')
 > - (query) *type **String***
 
 ```js
-scraper.image.wallpaperflare('loli')
+Nishino.image.wallpaperflare('loli')
 .then(response => {
   console.log(response)
 })
@@ -1279,7 +1279,7 @@ scraper.image.wallpaperflare('loli')
 > - (query) *type **String***
 
 ```js
-scraper.hentai.search('loli')
+Nishino.hentai.search('loli')
 .then(response => {
   console.log(response)
 })
@@ -1313,7 +1313,7 @@ scraper.hentai.search('loli')
 <details><summary><b>Random</b></summary><br>
 
 ```js
-scraper.hentai.random()
+Nishino.hentai.random()
 .then(response => {
   console.log(response)
 })
@@ -1345,7 +1345,7 @@ scraper.hentai.random()
 var url = 'https://www.pornhub.com/view_video.php?viewkey=ph5e3d6b6065a1a'
 //var key = ['TITLE', 'VIEWS', 'UP_VOTES', 'DOWN_VOTES', 'PERCENT', 'AUTHOR', 'AUTHOR_SUBSCRIBER', 'CATEGORIES', 'TAGS', 'PRODUCTION', 'DESCRIPTION', 'DURATION', 'UPLOAD_DATE', 'PORNSTARS', 'THUMBNAIL_URL', 'NUMBER_OF_COMMENT', 'COMMENTS', 'RELATED_VIDEOS', 'DOWNLOAD_URLS'];
 
-scraper.pornhub.download(url) //scraper.pornhub.download(url, key)
+Nishino.pornhub.download(url) //Nishino.pornhub.download(url, key)
 .then(response => {
   console.log(response)
 })
@@ -1374,7 +1374,7 @@ var query = 'japan'
 //var key = ['TITLE', 'VIEWS', 'UP_VOTES', 'DOWN_VOTES', 'PERCENT', 'AUTHOR', 'AUTHOR_SUBSCRIBER', 'CATEGORIES', 'TAGS', 'PRODUCTION', 'DESCRIPTION', 'DURATION', 'UPLOAD_DATE', 'PORNSTARS', 'THUMBNAIL_URL', 'NUMBER_OF_COMMENT', 'COMMENTS', 'RELATED_VIDEOS', 'DOWNLOAD_URLS'];
 //var page = 2
 
-scraper.pornhub.search(query) //scraper.pornhub.search(query, key, page)
+Nishino.pornhub.search(query) //Nishino.pornhub.search(query, key, page)
 .then(response => {
   console.log(response)
 })
@@ -1425,7 +1425,7 @@ scraper.pornhub.search(query) //scraper.pornhub.search(query, key, page)
 var query = 'Eva Elfie'
 //var key = ['TITLE','DESCRIPTION','RANK_MODEL','RANK_WEEK_MODEL','RANK_MONTH_MODEL','RANK_LAST_MONTH_MODEL','RANK_YEAR_MODEL','VIDEO_NUMBER','RELATIONSHIP_STATUS','INTERESTED_IN','INTERESTED_IN','GENDER','HEIGHT','WEIGHT','ETHNICITY','PROFILE_VIEWS','VIDEOS_WATCHED']
 
-scraper.pornhub.model(query) //scraper.pornhub.model(query, key)
+Nishino.pornhub.model(query) //Nishino.pornhub.model(query, key)
 .then(response => {
   console.log(response)
 })
@@ -1449,7 +1449,7 @@ scraper.pornhub.model(query) //scraper.pornhub.model(query, key)
 //var key = ['TITLE', 'VIEWS', 'UP_VOTES', 'DOWN_VOTES', 'PERCENT', 'AUTHOR', 'AUTHOR_SUBSCRIBER', 'CATEGORIES', 'TAGS', 'PRODUCTION', 'DESCRIPTION', 'DURATION', 'UPLOAD_DATE', 'PORNSTARS', 'THUMBNAIL_URL', 'NUMBER_OF_COMMENT', 'COMMENTS', 'RELATED_VIDEOS', 'DOWNLOAD_URLS'];
 //var page = 2
 
-scraper.pornhub.video() //scraper.pornhub.video(key, page)
+Nishino.pornhub.video() //Nishino.pornhub.video(key, page)
 .then(response => {
   console.log(response)
 })
@@ -1500,7 +1500,7 @@ scraper.pornhub.video() //scraper.pornhub.video(key, page)
 > *list kategori (terkini, terpopuler, global)*
 
 ```js
-scraper.news.kompas_news('terkini')
+Nishino.news.kompas_news('terkini')
 .then(response => {
   console.log(response)
 })
@@ -1568,7 +1568,7 @@ scraper.news.kompas_news('terkini')
 var type = 'holographic_3d'
 var text = 'wiraardy'
 
-scraper.textpro.light_style(type, text)
+Nishino.textpro.light_style(type, text)
 .then(response => {
   console.log(response)
 })
