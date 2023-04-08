@@ -1,6 +1,6 @@
 {
   "name": "nishino-project",
-  "version": "1.1.1-fix",
+  "version": "1.2.0",
   "description": "new scraper",
   "main": "index.js",
   "directories": {
